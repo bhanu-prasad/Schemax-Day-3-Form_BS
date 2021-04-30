@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    
+    background: linear-gradient(135deg,#FC5C7D,#6a82fb);
+    background-repeat: no-repeat;
+    height: auto;
+    
+}
+.banner{
+    background: rgba(255, 255, 255, 0.596);
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 50px 60px 40px;
+    max-width: 60%;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.295);
+}
+@media screen and (max-width:850px) {
+    .banner{
+         
+         padding: 50px 40px;
+    }
+ }
+@media screen and (max-width:700px) {
+   .banner{
+        margin-top: 20px;
+        max-width: 90%;
+        padding: 50px 20px;
+   }
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.submitbtn{
+    
+    padding: 15px 15px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    background: black;
+
+}
+.btn :hover{
+    cursor: pointer;
+    color: #000;
+    background:linear-gradient(45deg,#c77ff2,#e8519e);
+}
+
+.fa-arrow-right{
+    color: #fff;
+}
+.gender{
+    margin: 6px 0px;
+}
+input{
+    margin-bottom: 8px ;
+    outline: black;
+    
+}
+.form-control{
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 0%;
+    outline: black;
+    border: 1px solid rgb(242, 102, 255);
+}
+.form-group{
+    outline: black;
+}
+.form-control:focus{
+    outline: black;
+}
+.footer{
+    background: #000;
+    padding: 15px;
+    color: #fff;
+    
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Day3| BS Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner container-sm">
+        <form action="#" class="">
+            <h1 class="text-center">Student Details Form</h1>
+            <br>
+                <label for="name" class="nmtitle">Your Name*</label>
+                <div class="row" >
+                    <div id="fname" class="col-xs-12 col-sm-6 " >
+                        <input type="text" name="name" required class="form-control" placeholder="First name" autofocus>
+                    </div>
+                    <div id="lname" class="col-xs-12 col-sm-6 ">
+                        <input type="text" name="name" required class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+                <label for="dob" class="nmtitle">Date of Birth: </label>
+                <input type="date" class="form-control">
+                <div class="gender">
+                    <label class="">Gender:</label>
+                    <br>
+                    <input type="radio" name="gender" id="male" value="male"><label for="male" required> Male</label>
+                    
+                    <input type="radio" name="gender" id="female" value="female"><label for="male" required> Female</label>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="nmtitle">Email Address*</label>
+                    <input type="email" name="email" placeholder="Enter Email" class="form-control" required title="Enter a valid email-id">
+                    <label for="num" class="nmtitle">Contact Number*</label>
+                    <input type="tel" class="form-control" pattern="[6-9]{1}[0-9]{9}" required title="Enter a valid mobile number" placeholder="10-digit number">
+                    <label for="college" class="nmtitle">College Name</label>
+                    <input type="text" name="college"  class="form-control" placeholder="College Name">
+                    <label for="college" class="nmtitle">Branch</label>
+                    <input type="text" name="branch" class="form-control" placeholder="Ex: Computer Science">
+                    <label for="year" class="nmtitle">Year of Study</label>
+                    <input type="text" name="year"  class="form-control" placeholder="2nd yr">
+                    <label for="rno" class="nmtitle">Registration Number</label>
+                    <input type="text" id="rno"  class="form-control" placeholder="regno">
+                </div>
+                <div class="btn">
+                    <button onclick="" class="submitbtn"><span>Submit <i class="fa fa-arrow-right"></i></span></button>
+                </div>
+        </form>
+    </div>
+    <div class="footer">
+        <p>©Bhanu Prasad| email: bhanu.prasad1908@gmail.com</p>
+    </div>
+</body>
+</html>
